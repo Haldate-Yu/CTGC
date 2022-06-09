@@ -1,0 +1,1749 @@
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=63.33 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 12.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=63.89 ¡À 16.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=67.22 ¡À 10.38
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.11 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=57.22 ¡À 18.10
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 12.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.11 ¡À 10.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=63.33 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=63.89 ¡À 16.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=62.78 ¡À 17.75
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=63.89 ¡À 16.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=64.44 ¡À 14.10
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.11 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=67.22 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 12.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=63.89 ¡À 15.57
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=64.44 ¡À 16.52
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 11.06
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=60.00 ¡À 15.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=66.67 ¡À 10.24
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.11 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=61.67 ¡À 16.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.67 ¡À 11.11
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.33 ¡À 12.68
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=61.11 ¡À 17.21
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=63.89 ¡À 15.37
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 10.56
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=62.78 ¡À 17.04
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=63.33 ¡À 15.36
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.67 ¡À 11.11
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=66.67 ¡À 13.15
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=62.78 ¡À 16.68
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=61.11 ¡À 17.21
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=63.89 ¡À 16.53
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=66.67 ¡À 10.24
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=67.22 ¡À 10.96
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=61.67 ¡À 17.29
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=65.56 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.67 ¡À 12.67
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=67.78 ¡À 12.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=64.44 ¡À 15.95
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=65.56 ¡À 14.44
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=61.11 ¡À 17.57
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 10.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.78 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=65.56 ¡À 16.06
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=62.22 ¡À 17.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=62.78 ¡À 14.92
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=67.78 ¡À 12.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.67 ¡À 11.65
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=61.11 ¡À 17.74
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=66.67 ¡À 10.83
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=62.22 ¡À 17.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=59.44 ¡À 16.49
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=65.00 ¡À 15.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=62.78 ¡À 17.04
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.67 ¡À 11.11
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=66.11 ¡À 11.24
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.11 ¡À 16.56
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=67.78 ¡À 12.12
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 10.90
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=65.56 ¡À 15.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=64.44 ¡À 14.74
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.11 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=67.78 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.33 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=66.11 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.67 ¡À 11.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=64.44 ¡À 15.36
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 11.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=65.56 ¡À 14.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=61.67 ¡À 16.75
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=67.22 ¡À 10.08
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=63.89 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=62.22 ¡À 17.71
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=63.89 ¡À 14.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=63.89 ¡À 14.75
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=61.67 ¡À 15.41
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=63.89 ¡À 15.76
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=66.67 ¡À 10.24
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.67 ¡À 11.11
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=62.22 ¡À 17.71
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=62.78 ¡À 14.07
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=64.44 ¡À 14.95
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=67.78 ¡À 10.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=66.67 ¡À 12.42
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=66.67 ¡À 11.65
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.67 ¡À 11.11
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.22 ¡À 13.61
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.67 ¡À 18.59
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.22 ¡À 16.75
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.98
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 15.80
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.67 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 18.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=73.89 ¡À 14.28
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.56 ¡À 9.31
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.89 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.67 ¡À 10.96
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 10.02
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.67 ¡À 13.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.11 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.00 ¡À 16.86
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 16.85
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 13.62
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 10.32
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.67 ¡À 13.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 16.38
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.56 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 18.22
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.22 ¡À 11.39
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 12.96
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.22 ¡À 16.75
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=63.89 ¡À 19.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.00 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=69.44 ¡À 11.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.67 ¡À 17.21
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.45
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.00 ¡À 13.43
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=65.56 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 10.30
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.67 ¡À 13.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=59.44 ¡À 21.81
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.00 ¡À 12.47
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 13.19
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 12.96
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 13.56
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 13.19
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 16.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=66.67 ¡À 16.85
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=71.67 ¡À 11.51
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 10.89
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.11 ¡À 16.56
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 12.73
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 16.06
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=63.89 ¡À 18.30
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 14.28
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.00 ¡À 17.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=73.33 ¡À 13.56
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.11 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.89 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 13.65
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=64.44 ¡À 17.95
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.78 ¡À 16.25
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.33 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=69.44 ¡À 10.90
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=67.22 ¡À 15.80
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.33 ¡À 15.53
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.56 ¡À 15.28
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 14.87
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.33 ¡À 11.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=69.44 ¡À 14.11
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 16.52
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.11 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=69.44 ¡À 13.21
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=65.56 ¡À 15.28
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.00 ¡À 10.89
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 13.43
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.56 ¡À 15.48
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 15.91
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=67.78 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.98
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.78 ¡À 17.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 16.14
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=66.11 ¡À 17.11
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=64.44 ¡À 15.75
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 15.91
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=67.78 ¡À 10.18
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.51
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=69.44 ¡À 10.02
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=66.67 ¡À 15.32
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.11 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=68.33 ¡À 12.68
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.33 ¡À 12.92
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 12.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 9.04
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.22 ¡À 11.51
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 15.15
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.00 ¡À 15.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 14.87
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.33 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.56 ¡À 12.68
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 9.38
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 15.15
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.56 ¡À 15.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=68.33 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=65.56 ¡À 16.06
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.67 ¡À 10.96
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 13.10
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.33 ¡À 13.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.11 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 15.91
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=60.00 ¡À 18.05
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=66.67 ¡À 15.91
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 10.56
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=67.22 ¡À 11.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=69.44 ¡À 15.76
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.89 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.00 ¡À 15.12
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 14.91
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 11.98
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 12.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.11 ¡À 13.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=67.78 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 14.32
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 11.45
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=68.89 ¡À 13.19
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=66.67 ¡À 16.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 9.38
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.22 ¡À 9.30
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 13.43
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.22 ¡À 16.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.56 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=69.44 ¡À 12.23
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 12.96
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=67.78 ¡À 10.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=65.56 ¡À 18.05
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 13.43
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=65.56 ¡À 15.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 15.91
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.33 ¡À 11.67
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 10.00
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 12.37
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 10.02
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.33 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=68.33 ¡À 13.16
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=67.78 ¡À 12.62
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.33 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.00 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.22 ¡À 11.92
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=60.00 ¡À 20.00
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=67.78 ¡À 11.06
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.00 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 12.48
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=64.44 ¡À 15.56
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=65.56 ¡À 15.87
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.33 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.33 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=66.67 ¡À 12.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.11 ¡À 10.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=65.00 ¡À 15.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 10.48
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=63.33 ¡À 17.95
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=59.44 ¡À 19.73
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.17
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 10.89
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.33 ¡À 11.67
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=69.44 ¡À 11.45
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=71.67 ¡À 13.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.67 ¡À 11.24
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=71.11 ¡À 15.07
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=73.89 ¡À 13.62
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=72.22 ¡À 11.39
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=72.78 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.00 ¡À 17.60
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=72.22 ¡À 11.39
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=65.00 ¡À 17.75
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.89 ¡À 11.97
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.67 ¡À 11.24
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=62.78 ¡À 19.09
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=73.89 ¡À 13.16
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=67.22 ¡À 15.61
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.67 ¡À 10.96
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=64.44 ¡À 17.43
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=65.56 ¡À 18.22
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=68.89 ¡À 10.89
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.67 ¡À 16.10
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=71.67 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=69.44 ¡À 17.79
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.22 ¡À 12.91
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=71.11 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=68.33 ¡À 10.26
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.11 ¡À 16.56
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=65.56 ¡À 16.81
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 12.48
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.33 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=73.33 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=72.78 ¡À 13.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 18.29
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=72.22 ¡À 13.38
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=72.22 ¡À 11.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=71.11 ¡À 10.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=72.22 ¡À 13.38
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 17.78
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=73.33 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=73.33 ¡À 13.10
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=68.33 ¡À 17.75
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=72.78 ¡À 13.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=69.44 ¡À 17.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=72.78 ¡À 13.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 10.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=72.22 ¡À 12.91
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 14.92
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 17.79
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=72.22 ¡À 12.91
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 10.77
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.67 ¡À 14.15
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=72.22 ¡À 12.91
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.33 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=73.33 ¡À 12.86
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 17.43
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=72.22 ¡À 11.39
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.78 ¡À 13.25
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=65.00 ¡À 18.43
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=73.33 ¡À 13.79
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=68.89 ¡À 17.43
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 16.06
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=66.11 ¡À 15.20
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 12.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=72.22 ¡À 12.17
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 10.90
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 11.44
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.56 ¡À 13.16
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=70.56 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=65.56 ¡À 18.22
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=73.89 ¡À 14.28
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.67 ¡À 18.26
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=67.78 ¡À 13.10
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=70.56 ¡À 13.39
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=67.22 ¡À 16.38
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.56 ¡À 11.40
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=69.44 ¡À 11.72
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=68.89 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.06
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=68.89 ¡À 13.19
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=69.44 ¡À 11.18
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=72.22 ¡À 11.39
+------------------------------
+Model details :  Model=ctgc, Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=70.56 ¡À 10.84
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=65.56 ¡À 20.15
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=69.44 ¡À 11.98
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=65.56 ¡À 16.06
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=67.78 ¡À 14.66
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=66.11 ¡À 16.56
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.56 ¡À 12.68
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.00 ¡À 10.60
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=64.44 ¡À 19.12
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=66.67 ¡À 16.85
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.56 ¡À 12.44
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=72.22 ¡À 11.92
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 11.86
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=65.00 ¡À 19.09
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.00 ¡À 11.71
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.56 ¡À 13.16
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.67 ¡À 11.51
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=62.78 ¡À 21.24
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=66.11 ¡À 16.38
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=72.22 ¡À 12.17
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=67.22 ¡À 16.38
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=71.67 ¡À 12.53
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=69.44 ¡À 10.61
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.00 ¡À 12.96
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=62.22 ¡À 21.34
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=67.78 ¡À 17.00
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=69.44 ¡À 12.48
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.67 ¡À 12.03
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=72.78 ¡À 14.37
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=70.56 ¡À 11.12
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=71.11 ¡À 11.60
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=45 
+Final result :  test_acc_main=66.67 ¡À 14.49
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=46 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=47 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=48 
+Final result :  test_acc_main=70.56 ¡À 11.93
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=49 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=50 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=51 
+Final result :  test_acc_main=71.11 ¡À 11.33
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=42 
+Final result :  test_acc_main=68.33 ¡À 16.68
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=43 
+Final result :  test_acc_main=67.22 ¡À 17.65
+------------------------------
+Model details :  Model=ctgc, Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG, Seed=44 
+Final result :  test_acc_main=70.00 ¡À 12.72
+------------------------------

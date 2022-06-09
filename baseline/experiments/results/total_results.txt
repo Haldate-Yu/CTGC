@@ -1,0 +1,222 @@
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.56 ¡À 3.41
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.22 ¡À 2.35
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.78 ¡À 2.76
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.94 ¡À 2.76
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.44 ¡À 2.69
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=66.39 ¡À 2.42
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.72 ¡À 2.62
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.67 ¡À 3.06
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=67.00 ¡À 1.47
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=66.56 ¡À 2.29
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=65.06 ¡À 2.55
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=66.11 ¡À 2.15
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.08 ¡À 0.23
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.00 ¡À 1.72
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.50 ¡À 1.73
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.13 ¡À 0.29
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.22 ¡À 1.56
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.44 ¡À 1.94
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.24 ¡À 0.34
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.72 ¡À 1.76
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.50 ¡À 2.20
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.83 ¡À 1.52
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.19 ¡À 0.25
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.61 ¡À 3.21
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.94 ¡À 1.60
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.06 ¡À 0.20
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.06 ¡À 2.24
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.94 ¡À 2.43
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.12 ¡À 0.15
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.11 ¡À 1.00
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.72 ¡À 1.43
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.12 ¡À 0.32
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.78 ¡À 1.63
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.61 ¡À 1.45
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.08 ¡À 0.31
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.11 ¡À 1.88
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.33 ¡À 1.19
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.01 ¡À 0.35
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.61 ¡À 1.54
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.78 ¡À 1.95
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=67.78 ¡À 3.18
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.09 ¡À 0.16
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.33 ¡À 1.70
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.67 ¡À 0.79
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.08 ¡À 0.36
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.5, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.39 ¡À 1.33
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=none, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.39 ¡À 1.80
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.7, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=71.26 ¡À 0.29
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.44 ¡À 1.14
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.61 ¡À 3.11
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.06 ¡À 1.65
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=arctan, Data Split=standard, Dataset=NCI1 
+Final result: test_acc_main=62.45 ¡À 0.47
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=66.44 ¡À 3.01
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=71.50 ¡À 1.32
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.28 ¡À 3.21
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.94 ¡À 2.40
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.22 ¡À 2.04
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=66.76 ¡À 0.90
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=71.94 ¡À 1.43
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.72 ¡À 1.43
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=71.06 ¡À 1.52
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=arctan, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=68.94 ¡À 2.73
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.67 ¡À 0.78
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.67 ¡À 1.65
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.56 ¡À 1.98
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.3, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=67.05 ¡À 0.94
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.89 ¡À 1.02
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.22 ¡À 1.67
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.50 ¡À 2.07
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.5, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.33 ¡À 2.70
+------------------------------
+Model details : Model=ctgc, Num Layers=6, Alpha=0.7, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.33 ¡À 2.88
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.1, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=69.17 ¡À 2.62
+------------------------------
+Model details : Model=ctgc, Num Layers=3, Alpha=0.5, Aggr_type=ssgc, Norm_type=f2, Data Split=standard, Dataset=PROTEINS 
+Final result: test_acc_main=66.97 ¡À 0.59
+------------------------------
+Model details : Model=ctgc, Num Layers=9, Alpha=0.3, Aggr_type=ssgc_no_avg, Norm_type=f2, Data Split=standard, Dataset=MUTAG 
+Final result: test_acc_main=70.39 ¡À 1.47
+------------------------------
