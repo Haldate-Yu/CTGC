@@ -17,7 +17,6 @@ def aug_normalized_adjacency(adj, ectd_data, args):
 
     # temp adj + self loop
     temp = (adj + sp.eye(adj.shape[0])).toarray()
-    # mean_first_passage_time(temp)
 
     if args.adj == 'A1':
         adj_2nd = temp
@@ -64,60 +63,26 @@ def aug_normalized_adjacency(adj, ectd_data, args):
     # print(adj_2nd)
     i, j = np.nonzero(adj_2nd)
     values = zip(i, j)
-    # print("values: {}".format(values))
-
-    # print(calculate_rd(nnodes=adj_2nd.shape[0], values=values, adj=adj_2nd, save='./test.txt'))
-
+    
     # deg = np.diag(adj_2nd.sum(1))
     deg = np.diag(adj.sum(1))
-    if args.using_vg:
-        print("using vg")
-        if args.vg == 0.:
-            vg = deg.sum().sum()
-        else:
-            vg = args.vg
-    else:
-        vg = 1.
-
-    # vg = deg.sum().sum()
+    
     # standard laplacian
     # lap = deg - adj
-    # print("laplacian:\n {}".format(lap))
-    # print("pinv lap:\n {}".format(pinvh(lap)))
-    # print("L-1: {}".format(np.linalg.inv(lap)))
 
     # symmetric laplacian
     d_inv_sqrt = np.power(deg, -0.5)
     d_inv_sqrt[np.isinf(d_inv_sqrt)] = 0.
-
-    # d_inv = np.power(deg, -1.)
-    # d_inv[np.isinf(d_inv)] = 0.
 
     # for temp
     # lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj).dot(d_inv_sqrt)
     # lap = np.around(lap, 3)
     # sio.savemat('lap_A3.mat', {'lap': lap})
 
-    # print("L-1: {}".format(np.linalg.inv(lap)))
-    # lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj_2nd).dot(d_inv_sqrt)
-    # lap = np.identity(adj.shape[0]) - d_inv.dot(adj)
-
-    # print("laplacian:\n {}, {}, {}".format(lap.dtype, type(lap), lap.shape))
-
-    # print("symmetric pinv lap numpy:\n {}".format(np.linalg.pinv(np.mat(lap))))
-    # print("symmetric pinv lap:\n {}".format(scipy.linalg.pinv(np.mat(lap))))
-    # print("are they the same:\n {}".format(np.allclose(scipy.linalg.pinv(lap), pinvh(lap))))
-    # print("values < 0: {}".format(np.sum(pinvh(lap) < 0.)))
-    print("calculating pinv")
-    # pinv = np.linalg.pinv(lap, hermitian=True) # for large dataset maybe
-    # print("numpy pinv: {}".format(pinv))
-    # print("numpy done !")
-    # pinv = scipy.linalg.pinv(lap) # for small & medium dataset
-    print("pinv done!")
-    # pinv = pinvh(lap)
-    # print("scipy pinv: {}".format(pinv))
-    # print("done!")
-
+    
+    lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj_2nd).dot(d_inv_sqrt)
+    pinv = pinvh(lap)
+    
     # ectd = calculate_ectd_hie(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg,
     #                       save=ectd_data, full_adj=adj_2nd)
 
@@ -228,56 +193,8 @@ def sys_normalized_adjacency(adj):
     return d_mat_inv_sqrt.dot(adj).dot(d_mat_inv_sqrt).tocoo()
 
 
-def cal_pinv(lap):
-    pass
-
-
-def sigmoid(vec):
-    # return 1 / (1 + np.exp(-vec))
-    alpha = 1.
-    beta = 0.
-    return 1 / (1 + np.exp(-alpha * (vec - beta)))
-
-
-def arctan(vec):
-    return 2 * np.arctan(vec) / np.pi
-
-
-def cos(vec):
-    return 2 * np.cos(vec) / np.pi
-
-
-def sigmoid_kct(vec, std):
-    alpha = 1.5
-    return 1 / (1 + np.exp(-alpha * vec / std))
-
-
-def alpha_exp(vec, alpha=0.3):
-    return (1 - alpha) + alpha * np.exp(-vec)
-
-
-def calculate_rd(nnodes, values, adj, save=None):
-    # make adj a strong-connect graph
-    # standard adj
-    adj = np.where(adj != 0, adj, 1e10)
-    # print(adj)
-    # normalized adj
-    # adj = np.where(adj <= 0, adj, 1e-10)
-    G = nx.from_numpy_array(adj)
-    G = G.to_directed()
-
-    if os.path.exists(save):
-        rd = np.loadtxt(save, delimiter=',')
-    else:
-        rd = np.zeros((nnodes, nnodes), )
-        for i, j in tqdm(values):
-            rd[i, j] = nx.resistance_distance(G, i, j) if i != j else 0.
-        np.savetxt(save, delimiter=',')
-    return rd
-
-
 def calculate_ectd(nnodes, values, pinv, vg=1., save=None):
-    if os.path.exists(save):  # no save
+    if os.path.exists(save):
         ectd = np.loadtxt(save, delimiter=',')
     else:
         ectd = np.zeros((nnodes, nnodes), )
@@ -291,10 +208,9 @@ def calculate_ectd(nnodes, values, pinv, vg=1., save=None):
 
         np.savetxt(save, ectd, fmt='%f', delimiter=',')
 
-    # eps = 3/6/10
-    eps = 3.
-    ectd[ectd < 0.] = 0.
-    # ectd_norm = ectd
+    # for some reason, part of the distance are negative, 
+    # so just keep it original. 
+    ectd[ectd < 0.] = 1.
 
     ectd_norm = np.power(ectd, -1.)
     ectd_norm[np.isinf(ectd_norm)] = 0.
@@ -361,11 +277,6 @@ def calculate_ectd_hie(nnodes, values, pinv, vg=1., save=None, full_adj=None):
             # ectd[i, j] = arctan(1. / ectd[i, j])
         np.savetxt(save, ectd, fmt='%f', delimiter=',')
 
-    # min = ectd[ectd.nonzero()].min()
-    # print("init ectd:\n {}".format(ectd))
-    # print("init min: {}".format(min))
-    # print("init max: {}".format(ectd.max()))
-
     # reciprocal
     ectd = np.power(ectd, -1.)
     ectd[ectd < 0.] = 0.
@@ -374,15 +285,6 @@ def calculate_ectd_hie(nnodes, values, pinv, vg=1., save=None, full_adj=None):
     np.fill_diagonal(ectd, 1.)
     # print(np.max(ectd, axis=1))
     # np.fill_diagonal(ectd, np.max(ectd, axis=1))
-
-    # print("reciprocal of ectd:\n {}".format(ectd))
-
-    # min = ectd[ectd.nonzero()].min()
-    # print("rep min: {}".format(min))
-    # print("rep max: {}".format(ectd.max()))
-    # print(ectd[100, 100], ectd[100, 1602], ectd[100, 2056])
-    # print(ectd[0, 633])
-    # min-max normalization(break symmetric) global?
 
     # ectd_norm = (ectd - min) / (ectd.max() - min)
     # ectd_norm[ectd_norm < 0] = 0.
@@ -396,79 +298,4 @@ def calculate_ectd_hie(nnodes, values, pinv, vg=1., save=None, full_adj=None):
     # no normalization
     ectd_norm = ectd
 
-    # print("symmetric matrix: {}".format(np.allclose(ectd_norm, ectd_norm.T)))
-    # print("row-normed ectd:\n {}".format(ectd_norm))
-    # max values
-    # print(np.argmax(ectd, axis=1))
-    # print("values smaller than 0: {}".format(np.sum(ectd_norm < 0)))
-
     return ectd_norm
-
-
-def mean_first_passage_time(adj, tol=1e-3):
-    # P = D^-1 * A
-    nnodes = adj.shape[0]
-    p = row_normalize(adj)
-    e_vals, e_vecs = np.linalg.eig(p.T)
-    aux = np.abs(e_vals - 1.)
-    index = np.argmin(aux)
-    w = e_vecs[:, index].T / e_vecs[:, index].sum()
-
-    w_tile = np.tile(w, (nnodes, 1))
-    I = np.identity(nnodes)
-
-    Z = np.linalg.inv(I - p + w)
-    mfpt = (np.tile(np.diag(Z).T, (nnodes, 1)) - Z) / w_tile
-
-    print("mfpt: {}".format(mfpt))
-    pass
-
-
-def cal_ets(adj, ns=4):
-    '''
-    adj - numpy array of adjacency matrix
-    ns - number of steps to consider
-    '''
-    nnodes = adj.shape[0]
-    p = row_normalize(adj)
-
-    delta = np.identity(nnodes)
-    phi_list = np.empty([ns + 1, nnodes, nnodes])
-    et = np.zeros([nnodes, nnodes])
-    et = delta
-    phi_list[0] = delta
-
-    for i in range(0, ns):
-        phi_list[i + 1] = delta + np.multiply((1 - delta), p.dot(phi_list[i]))
-        et += (i + 1) * (np.subtract(phi_list[i + 1], phi_list[i]))
-    ectd = np.reciprocal(et + et.T)
-    ectd[np.isinf(ectd)] = 0.
-    print(np.count_nonzero(ectd))
-
-    return ectd
-
-
-def getHittingTimeByTarget(b, t, Nstep=3, epsilon=.1):
-    power = np.ones((b.shape[0])) / b.shape[0]
-    n_t = np.zeros((1, b.shape[0]))
-    b_ = b.copy()
-    b_[t, :] = 0
-
-    for i in range(1, Nstep):
-        power = np.matmul(power, b_)
-        n_t += power
-        if np.linalg.norm(i * power) < epsilon: break
-    return n_t
-
-
-def getHitttingTime(adj):
-    b = (adj.T / np.sum(adj, axis=1)).T
-    h = np.zeros(adj.shape)
-
-    for target in range(adj.shape[0]):
-        h[:, target] = getHittingTimeByTarget(b, target)
-    print(h)
-    print(np.count_nonzero(h))
-
-    ECTD = h + h.T
-    return h
