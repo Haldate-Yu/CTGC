@@ -1,3 +1,4 @@
+import os
 import time
 import argparse
 import numpy as np
@@ -25,6 +26,7 @@ if args.tuned:
 # setting random seeds
 set_seed(args.seed, args.cuda)
 
+os.makedirs('./pinv-dataset', exist_ok=True)
 if args.dataset in {'cora', 'citeseer', 'pubmed'}:
     data_path = './pinv-dataset/ectd_' + args.dataset + '_'
     if args.using_vg: data_path += 'vg' + str(args.vg) + '_'
