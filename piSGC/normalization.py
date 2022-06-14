@@ -44,7 +44,7 @@ def aug_normalized_adjacency(adj, ectd_data, args):
     i, j = np.nonzero(adj_2nd)
     values = zip(i, j)
     
-    deg = np.diag(adj.sum(1))
+    deg = np.diag(adj_2nd.sum(1))
     
     # standard laplacian
     # lap = deg - adj
