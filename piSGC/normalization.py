@@ -33,22 +33,6 @@ def aug_normalized_adjacency(adj, ectd_data, args):
 
     adj_2nd = np.where(adj_2nd <= 0, adj_2nd, 1.)
 
-    # 3-layer hierachical
-    # adj = adj + sp.eye(adj.shape[0])
-    # 2-pow adj?
-    # adj = adj.toarray()
-    # split_list = [adj, adj @ adj, adj @ adj @ adj]
-    # split_list = [np.where(a <= 0, a, 1.) for a in split_list]
-    # for index in range(len(split_list) - 1, -1, -1):
-    #     if index > 0:
-    #         split_list[index] -= split_list[index - 1]
-
-    # value_list = []
-    # for adj in split_list:
-    #     print(np.count_nonzero(adj))
-    #     i, j = np.nonzero(adj)
-    #     value_list.append(zip(i, j))
-
     '''
     ectd_data_path:
         ectd + 
@@ -57,14 +41,9 @@ def aug_normalized_adjacency(adj, ectd_data, args):
         {fun} +
         {An}
     '''
-    # ectd_data = './pinv-dataset/ectd_cora_vg_log_A1.txt'
-    # adj[i, j] = 1. record indexes
-    print(np.count_nonzero(adj_2nd))
-    # print(adj_2nd)
     i, j = np.nonzero(adj_2nd)
     values = zip(i, j)
     
-    # deg = np.diag(adj_2nd.sum(1))
     deg = np.diag(adj.sum(1))
     
     # standard laplacian
@@ -74,23 +53,13 @@ def aug_normalized_adjacency(adj, ectd_data, args):
     d_inv_sqrt = np.power(deg, -0.5)
     d_inv_sqrt[np.isinf(d_inv_sqrt)] = 0.
 
-    # for temp
-    # lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj).dot(d_inv_sqrt)
-    # lap = np.around(lap, 3)
-    # sio.savemat('lap_A3.mat', {'lap': lap})
-
-    
     lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj_2nd).dot(d_inv_sqrt)
     pinv = pinvh(lap)
-    
-    # ectd = calculate_ectd_hie(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg,
-    #                       save=ectd_data, full_adj=adj_2nd)
 
     ectd = calculate_ectd(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg, save=ectd_data)
     ectd = np.around(ectd, 3)
 
     adj = ectd
-    # adj = np.where(ectd > 0, adj_2nd, 0.)
     adj = sp.coo_matrix(adj)
 
     row_sum = np.array(adj.sum(1))
