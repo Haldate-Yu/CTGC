@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
-from utils import load_citation, load_webkb, sgc_precompute, set_seed, logger
+from utils import load_citation, sgc_precompute, set_seed, logger
 from models import get_model
 from metrics import accuracy
 import pickle as pkl
