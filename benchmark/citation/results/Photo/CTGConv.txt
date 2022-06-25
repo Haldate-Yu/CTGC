@@ -1,0 +1,1080 @@
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc, norm=arctan)
+ Val Loss: 0.3638, 
+Test Acc: 0.9098 ¡À 0.011, 
+Duration: 1.4920440912246704
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc, norm=arctan)
+ Val Loss: 0.3689, 
+Test Acc: 0.9087 ¡À 0.011, 
+Duration: 1.5785152912139893
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc, norm=arctan)
+ Val Loss: 0.3958, 
+Test Acc: 0.9036 ¡À 0.011, 
+Duration: 1.8351176977157593
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4471, 
+Test Acc: 0.8952 ¡À 0.012, 
+Duration: 2.2775261402130127
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc, norm=arctan)
+ Val Loss: 0.5267, 
+Test Acc: 0.8838 ¡À 0.014, 
+Duration: 3.187744140625
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3370, 
+Test Acc: 0.9070 ¡À 0.011, 
+Duration: 1.500058889389038
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3650, 
+Test Acc: 0.8960 ¡À 0.012, 
+Duration: 1.6108157634735107
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.5106, 
+Test Acc: 0.8680 ¡À 0.015, 
+Duration: 1.8293131589889526
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.8945, 
+Test Acc: 0.7865 ¡À 0.030, 
+Duration: 2.276296615600586
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 1.3657, 
+Test Acc: 0.5895 ¡À 0.044, 
+Duration: 3.177616596221924
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=sgc, norm=arctan)
+ Val Loss: 0.3563, 
+Test Acc: 0.9101 ¡À 0.011, 
+Duration: 1.499070405960083
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=sgc, norm=arctan)
+ Val Loss: 0.4035, 
+Test Acc: 0.8998 ¡À 0.011, 
+Duration: 1.5716041326522827
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=sgc, norm=arctan)
+ Val Loss: 0.4879, 
+Test Acc: 0.8844 ¡À 0.013, 
+Duration: 1.762319803237915
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=sgc, norm=arctan)
+ Val Loss: 0.6182, 
+Test Acc: 0.8626 ¡À 0.016, 
+Duration: 2.207397699356079
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=sgc, norm=arctan)
+ Val Loss: 0.7544, 
+Test Acc: 0.8233 ¡À 0.022, 
+Duration: 3.1510870456695557
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc, norm=f2)
+ Val Loss: 0.8315, 
+Test Acc: 0.8837 ¡À 0.015, 
+Duration: 1.4023243188858032
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc, norm=f2)
+ Val Loss: 0.8523, 
+Test Acc: 0.8820 ¡À 0.016, 
+Duration: 1.48942232131958
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc, norm=f2)
+ Val Loss: 0.9079, 
+Test Acc: 0.8779 ¡À 0.016, 
+Duration: 1.6834231615066528
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc, norm=f2)
+ Val Loss: 1.0006, 
+Test Acc: 0.8683 ¡À 0.018, 
+Duration: 2.062518358230591
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc, norm=f2)
+ Val Loss: 1.1187, 
+Test Acc: 0.8391 ¡À 0.029, 
+Duration: 2.853670120239258
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8323, 
+Test Acc: 0.8824 ¡À 0.016, 
+Duration: 1.3970437049865723
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8627, 
+Test Acc: 0.8783 ¡À 0.016, 
+Duration: 1.4851162433624268
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9366, 
+Test Acc: 0.8698 ¡À 0.016, 
+Duration: 1.6844247579574585
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.0548, 
+Test Acc: 0.8479 ¡À 0.024, 
+Duration: 2.0568759441375732
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.1978, 
+Test Acc: 0.7708 ¡À 0.052, 
+Duration: 2.8241400718688965
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=sgc, norm=f2)
+ Val Loss: 0.8304, 
+Test Acc: 0.8830 ¡À 0.016, 
+Duration: 1.402543544769287
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=sgc, norm=f2)
+ Val Loss: 0.9047, 
+Test Acc: 0.8750 ¡À 0.016, 
+Duration: 1.4820616245269775
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=sgc, norm=f2)
+ Val Loss: 1.0273, 
+Test Acc: 0.8581 ¡À 0.022, 
+Duration: 1.669328212738037
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=sgc, norm=f2)
+ Val Loss: 1.1725, 
+Test Acc: 0.7953 ¡À 0.042, 
+Duration: 2.0584685802459717
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=sgc, norm=f2)
+ Val Loss: 1.3126, 
+Test Acc: 0.7192 ¡À 0.043, 
+Duration: 2.794858455657959
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc, norm=none)
+ Val Loss: 0.3379, 
+Test Acc: 0.9116 ¡À 0.011, 
+Duration: 1.113966464996338
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc, norm=none)
+ Val Loss: 0.3415, 
+Test Acc: 0.9114 ¡À 0.010, 
+Duration: 1.1995843648910522
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc, norm=none)
+ Val Loss: 0.3640, 
+Test Acc: 0.9074 ¡À 0.010, 
+Duration: 1.394528865814209
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc, norm=none)
+ Val Loss: 0.4062, 
+Test Acc: 0.9008 ¡À 0.011, 
+Duration: 1.7782315015792847
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc, norm=none)
+ Val Loss: 0.4703, 
+Test Acc: 0.8921 ¡À 0.013, 
+Duration: 2.5606186389923096
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3372, 
+Test Acc: 0.9094 ¡À 0.011, 
+Duration: 1.0336418151855469
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3564, 
+Test Acc: 0.9053 ¡À 0.011, 
+Duration: 0.8544322848320007
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.4270, 
+Test Acc: 0.8948 ¡À 0.015, 
+Duration: 0.9330556988716125
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.6075, 
+Test Acc: 0.8783 ¡À 0.024, 
+Duration: 1.3274388313293457
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 1.0342, 
+Test Acc: 0.8536 ¡À 0.033, 
+Duration: 2.0805623531341553
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.1, aggr=sgc, norm=none)
+ Val Loss: 0.3282, 
+Test Acc: 0.9129 ¡À 0.010, 
+Duration: 1.115830421447754
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.1, aggr=sgc, norm=none)
+ Val Loss: 0.3725, 
+Test Acc: 0.9042 ¡À 0.011, 
+Duration: 1.1913586854934692
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.1, aggr=sgc, norm=none)
+ Val Loss: 0.4459, 
+Test Acc: 0.8910 ¡À 0.011, 
+Duration: 1.3909242153167725
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.1, aggr=sgc, norm=none)
+ Val Loss: 0.5552, 
+Test Acc: 0.8750 ¡À 0.014, 
+Duration: 1.766067385673523
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.1, aggr=sgc, norm=none)
+ Val Loss: 0.6800, 
+Test Acc: 0.8462 ¡À 0.019, 
+Duration: 2.5360255241394043
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc, norm=arctan)
+ Val Loss: 0.3923, 
+Test Acc: 0.9034 ¡À 0.012, 
+Duration: 1.486387014389038
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc, norm=arctan)
+ Val Loss: 0.3943, 
+Test Acc: 0.9037 ¡À 0.012, 
+Duration: 1.571231722831726
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4125, 
+Test Acc: 0.9003 ¡À 0.012, 
+Duration: 1.7611874341964722
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4474, 
+Test Acc: 0.8935 ¡À 0.013, 
+Duration: 2.1594698429107666
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4966, 
+Test Acc: 0.8833 ¡À 0.013, 
+Duration: 2.939535140991211
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3342, 
+Test Acc: 0.9097 ¡À 0.011, 
+Duration: 1.4801511764526367
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3410, 
+Test Acc: 0.9034 ¡À 0.012, 
+Duration: 1.568105936050415
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.4489, 
+Test Acc: 0.8805 ¡À 0.014, 
+Duration: 1.7631019353866577
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.7727, 
+Test Acc: 0.8206 ¡À 0.023, 
+Duration: 2.151062250137329
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 1.2577, 
+Test Acc: 0.6225 ¡À 0.042, 
+Duration: 2.9450485706329346
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=sgc, norm=arctan)
+ Val Loss: 0.3845, 
+Test Acc: 0.9049 ¡À 0.012, 
+Duration: 1.4799466133117676
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=sgc, norm=arctan)
+ Val Loss: 0.4111, 
+Test Acc: 0.8998 ¡À 0.012, 
+Duration: 1.5697441101074219
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=sgc, norm=arctan)
+ Val Loss: 0.4643, 
+Test Acc: 0.8881 ¡À 0.013, 
+Duration: 1.7579107284545898
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=sgc, norm=arctan)
+ Val Loss: 0.5354, 
+Test Acc: 0.8716 ¡À 0.014, 
+Duration: 2.143866777420044
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=sgc, norm=arctan)
+ Val Loss: 0.6045, 
+Test Acc: 0.8535 ¡À 0.014, 
+Duration: 2.9177093505859375
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc, norm=f2)
+ Val Loss: 0.8715, 
+Test Acc: 0.8772 ¡À 0.012, 
+Duration: 1.4064990282058716
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc, norm=f2)
+ Val Loss: 0.8827, 
+Test Acc: 0.8779 ¡À 0.013, 
+Duration: 1.4858012199401855
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc, norm=f2)
+ Val Loss: 0.9174, 
+Test Acc: 0.8751 ¡À 0.014, 
+Duration: 1.6853100061416626
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc, norm=f2)
+ Val Loss: 0.9760, 
+Test Acc: 0.8675 ¡À 0.014, 
+Duration: 2.067502498626709
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc, norm=f2)
+ Val Loss: 1.0521, 
+Test Acc: 0.8527 ¡À 0.014, 
+Duration: 2.844444513320923
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8396, 
+Test Acc: 0.8834 ¡À 0.014, 
+Duration: 1.4386221170425415
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8525, 
+Test Acc: 0.8820 ¡À 0.016, 
+Duration: 1.4961656332015991
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9211, 
+Test Acc: 0.8744 ¡À 0.016, 
+Duration: 1.6838160753250122
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.0409, 
+Test Acc: 0.8546 ¡À 0.022, 
+Duration: 2.1269304752349854
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.1881, 
+Test Acc: 0.7828 ¡À 0.049, 
+Duration: 2.967679977416992
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=sgc, norm=f2)
+ Val Loss: 0.8674, 
+Test Acc: 0.8793 ¡À 0.013, 
+Duration: 1.4709223508834839
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=sgc, norm=f2)
+ Val Loss: 0.9111, 
+Test Acc: 0.8753 ¡À 0.014, 
+Duration: 1.5400080680847168
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=sgc, norm=f2)
+ Val Loss: 0.9897, 
+Test Acc: 0.8629 ¡À 0.014, 
+Duration: 1.7461622953414917
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=sgc, norm=f2)
+ Val Loss: 1.0850, 
+Test Acc: 0.8380 ¡À 0.016, 
+Duration: 2.101166248321533
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=sgc, norm=f2)
+ Val Loss: 1.1815, 
+Test Acc: 0.8148 ¡À 0.018, 
+Duration: 2.8332245349884033
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc, norm=none)
+ Val Loss: 0.3534, 
+Test Acc: 0.9060 ¡À 0.012, 
+Duration: 1.1520105600357056
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc, norm=none)
+ Val Loss: 0.3546, 
+Test Acc: 0.9059 ¡À 0.011, 
+Duration: 1.2548190355300903
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc, norm=none)
+ Val Loss: 0.3701, 
+Test Acc: 0.9026 ¡À 0.012, 
+Duration: 1.4392824172973633
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc, norm=none)
+ Val Loss: 0.3999, 
+Test Acc: 0.8961 ¡À 0.012, 
+Duration: 1.791570782661438
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc, norm=none)
+ Val Loss: 0.4429, 
+Test Acc: 0.8865 ¡À 0.013, 
+Duration: 2.611332654953003
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3237, 
+Test Acc: 0.9120 ¡À 0.011, 
+Duration: 1.1381384134292603
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3312, 
+Test Acc: 0.9110 ¡À 0.011, 
+Duration: 0.9753638505935669
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3842, 
+Test Acc: 0.9016 ¡À 0.013, 
+Duration: 0.9743568897247314
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.5341, 
+Test Acc: 0.8851 ¡À 0.025, 
+Duration: 1.3659672737121582
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.8260, 
+Test Acc: 0.8668 ¡À 0.021, 
+Duration: 2.1246490478515625
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.3, aggr=sgc, norm=none)
+ Val Loss: 0.3442, 
+Test Acc: 0.9078 ¡À 0.011, 
+Duration: 1.1633098125457764
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.3, aggr=sgc, norm=none)
+ Val Loss: 0.3691, 
+Test Acc: 0.9023 ¡À 0.012, 
+Duration: 1.190679669380188
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.3, aggr=sgc, norm=none)
+ Val Loss: 0.4162, 
+Test Acc: 0.8910 ¡À 0.012, 
+Duration: 1.3879151344299316
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.3, aggr=sgc, norm=none)
+ Val Loss: 0.4800, 
+Test Acc: 0.8750 ¡À 0.014, 
+Duration: 1.7942205667495728
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.3, aggr=sgc, norm=none)
+ Val Loss: 0.5411, 
+Test Acc: 0.8583 ¡À 0.014, 
+Duration: 2.5810914039611816
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4716, 
+Test Acc: 0.8807 ¡À 0.013, 
+Duration: 1.5432384014129639
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4748, 
+Test Acc: 0.8807 ¡À 0.013, 
+Duration: 1.5794785022735596
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc, norm=arctan)
+ Val Loss: 0.4907, 
+Test Acc: 0.8768 ¡À 0.013, 
+Duration: 1.8366650342941284
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc, norm=arctan)
+ Val Loss: 0.5191, 
+Test Acc: 0.8691 ¡À 0.013, 
+Duration: 2.296887159347534
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc, norm=arctan)
+ Val Loss: 0.5566, 
+Test Acc: 0.8585 ¡À 0.013, 
+Duration: 3.294576406478882
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3692, 
+Test Acc: 0.9026 ¡À 0.012, 
+Duration: 1.6392927169799805
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3323, 
+Test Acc: 0.9071 ¡À 0.011, 
+Duration: 1.699252724647522
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3916, 
+Test Acc: 0.8934 ¡À 0.012, 
+Duration: 1.904816746711731
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.6345, 
+Test Acc: 0.8527 ¡À 0.017, 
+Duration: 2.3015241622924805
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 1.1084, 
+Test Acc: 0.6795 ¡À 0.045, 
+Duration: 3.1466774940490723
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=sgc, norm=arctan)
+ Val Loss: 0.4666, 
+Test Acc: 0.8826 ¡À 0.013, 
+Duration: 1.5981043577194214
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=sgc, norm=arctan)
+ Val Loss: 0.4869, 
+Test Acc: 0.8777 ¡À 0.013, 
+Duration: 1.7723177671432495
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=sgc, norm=arctan)
+ Val Loss: 0.5275, 
+Test Acc: 0.8661 ¡À 0.013, 
+Duration: 1.8250354528427124
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=sgc, norm=arctan)
+ Val Loss: 0.5770, 
+Test Acc: 0.8510 ¡À 0.014, 
+Duration: 2.327180862426758
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=sgc, norm=arctan)
+ Val Loss: 0.6264, 
+Test Acc: 0.8363 ¡À 0.014, 
+Duration: 3.235353708267212
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc, norm=f2)
+ Val Loss: 0.9553, 
+Test Acc: 0.8541 ¡À 0.012, 
+Duration: 1.4728366136550903
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc, norm=f2)
+ Val Loss: 0.9626, 
+Test Acc: 0.8544 ¡À 0.012, 
+Duration: 1.579113483428955
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc, norm=f2)
+ Val Loss: 0.9851, 
+Test Acc: 0.8505 ¡À 0.011, 
+Duration: 1.7367428541183472
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc, norm=f2)
+ Val Loss: 1.0226, 
+Test Acc: 0.8425 ¡À 0.012, 
+Duration: 2.0869345664978027
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc, norm=f2)
+ Val Loss: 1.0709, 
+Test Acc: 0.8321 ¡À 0.012, 
+Duration: 2.974518060684204
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8832, 
+Test Acc: 0.8744 ¡À 0.012, 
+Duration: 1.5487884283065796
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.8588, 
+Test Acc: 0.8828 ¡À 0.015, 
+Duration: 1.4981859922409058
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9060, 
+Test Acc: 0.8784 ¡À 0.016, 
+Duration: 1.688547968864441
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.0205, 
+Test Acc: 0.8624 ¡À 0.020, 
+Duration: 2.072199821472168
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.1728, 
+Test Acc: 0.8011 ¡À 0.044, 
+Duration: 2.9570446014404297
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=sgc, norm=f2)
+ Val Loss: 0.9525, 
+Test Acc: 0.8557 ¡À 0.012, 
+Duration: 1.4795711040496826
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=sgc, norm=f2)
+ Val Loss: 0.9794, 
+Test Acc: 0.8515 ¡À 0.012, 
+Duration: 1.6377499103546143
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=sgc, norm=f2)
+ Val Loss: 1.0290, 
+Test Acc: 0.8398 ¡À 0.012, 
+Duration: 1.7996407747268677
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=sgc, norm=f2)
+ Val Loss: 1.0886, 
+Test Acc: 0.8247 ¡À 0.013, 
+Duration: 2.1284127235412598
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=sgc, norm=f2)
+ Val Loss: 1.1503, 
+Test Acc: 0.8120 ¡À 0.014, 
+Duration: 3.033432960510254
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc, norm=none)
+ Val Loss: 0.4226, 
+Test Acc: 0.8833 ¡À 0.013, 
+Duration: 1.1162608861923218
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc, norm=none)
+ Val Loss: 0.4250, 
+Test Acc: 0.8831 ¡À 0.013, 
+Duration: 1.235282301902771
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc, norm=none)
+ Val Loss: 0.4400, 
+Test Acc: 0.8793 ¡À 0.013, 
+Duration: 1.465893268585205
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc, norm=none)
+ Val Loss: 0.4656, 
+Test Acc: 0.8722 ¡À 0.013, 
+Duration: 1.8598986864089966
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc, norm=none)
+ Val Loss: 0.5001, 
+Test Acc: 0.8620 ¡À 0.013, 
+Duration: 2.6695756912231445
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3475, 
+Test Acc: 0.9034 ¡À 0.012, 
+Duration: 1.0947726964950562
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3225, 
+Test Acc: 0.9112 ¡À 0.011, 
+Duration: 1.301551103591919
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3504, 
+Test Acc: 0.9074 ¡À 0.011, 
+Duration: 1.0589584112167358
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.4439, 
+Test Acc: 0.8935 ¡À 0.018, 
+Duration: 1.3850703239440918
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.6562, 
+Test Acc: 0.8738 ¡À 0.034, 
+Duration: 2.278721809387207
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.5, aggr=sgc, norm=none)
+ Val Loss: 0.4166, 
+Test Acc: 0.8853 ¡À 0.012, 
+Duration: 1.1964589357376099
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.5, aggr=sgc, norm=none)
+ Val Loss: 0.4371, 
+Test Acc: 0.8799 ¡À 0.013, 
+Duration: 1.2700951099395752
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.5, aggr=sgc, norm=none)
+ Val Loss: 0.4746, 
+Test Acc: 0.8690 ¡À 0.013, 
+Duration: 1.400626540184021
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.5, aggr=sgc, norm=none)
+ Val Loss: 0.5203, 
+Test Acc: 0.8545 ¡À 0.013, 
+Duration: 1.8238918781280518
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.5, aggr=sgc, norm=none)
+ Val Loss: 0.5651, 
+Test Acc: 0.8408 ¡À 0.014, 
+Duration: 2.6143798828125
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc, norm=arctan)
+ Val Loss: 0.5858, 
+Test Acc: 0.8440 ¡À 0.012, 
+Duration: 1.535269021987915
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc, norm=arctan)
+ Val Loss: 0.5892, 
+Test Acc: 0.8436 ¡À 0.013, 
+Duration: 1.6439199447631836
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc, norm=arctan)
+ Val Loss: 0.6009, 
+Test Acc: 0.8404 ¡À 0.013, 
+Duration: 1.9056097269058228
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc, norm=arctan)
+ Val Loss: 0.6205, 
+Test Acc: 0.8342 ¡À 0.013, 
+Duration: 2.270515203475952
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc, norm=arctan)
+ Val Loss: 0.6453, 
+Test Acc: 0.8257 ¡À 0.013, 
+Duration: 3.270275354385376
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.4625, 
+Test Acc: 0.8775 ¡À 0.013, 
+Duration: 1.5882763862609863
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3683, 
+Test Acc: 0.9002 ¡À 0.012, 
+Duration: 1.6334426403045654
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.3561, 
+Test Acc: 0.9018 ¡À 0.012, 
+Duration: 1.9152075052261353
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.4776, 
+Test Acc: 0.8820 ¡À 0.014, 
+Duration: 2.406447649002075
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc_no_avg, norm=arctan)
+ Val Loss: 0.8626, 
+Test Acc: 0.7911 ¡À 0.034, 
+Duration: 3.254103183746338
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=sgc, norm=arctan)
+ Val Loss: 0.5835, 
+Test Acc: 0.8453 ¡À 0.012, 
+Duration: 1.5609036684036255
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=sgc, norm=arctan)
+ Val Loss: 0.5975, 
+Test Acc: 0.8416 ¡À 0.013, 
+Duration: 1.6831231117248535
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=sgc, norm=arctan)
+ Val Loss: 0.6240, 
+Test Acc: 0.8328 ¡À 0.013, 
+Duration: 1.9018844366073608
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=sgc, norm=arctan)
+ Val Loss: 0.6551, 
+Test Acc: 0.8221 ¡À 0.013, 
+Duration: 2.390442132949829
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=sgc, norm=arctan)
+ Val Loss: 0.6866, 
+Test Acc: 0.8110 ¡À 0.014, 
+Duration: 3.625013828277588
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc, norm=f2)
+ Val Loss: 1.0595, 
+Test Acc: 0.8190 ¡À 0.013, 
+Duration: 1.9006576538085938
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc, norm=f2)
+ Val Loss: 1.0641, 
+Test Acc: 0.8190 ¡À 0.013, 
+Duration: 2.049582004547119
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc, norm=f2)
+ Val Loss: 1.0772, 
+Test Acc: 0.8162 ¡À 0.013, 
+Duration: 2.2736659049987793
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc, norm=f2)
+ Val Loss: 1.0983, 
+Test Acc: 0.8105 ¡À 0.013, 
+Duration: 2.612607479095459
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc, norm=f2)
+ Val Loss: 1.1253, 
+Test Acc: 0.8029 ¡À 0.013, 
+Duration: 3.6174728870391846
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9742, 
+Test Acc: 0.8480 ¡À 0.012, 
+Duration: 1.8844332695007324
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9062, 
+Test Acc: 0.8718 ¡À 0.012, 
+Duration: 1.9897254705429077
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9044, 
+Test Acc: 0.8791 ¡À 0.015, 
+Duration: 2.176335334777832
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 0.9905, 
+Test Acc: 0.8705 ¡À 0.018, 
+Duration: 2.659242868423462
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc_no_avg, norm=f2)
+ Val Loss: 1.1412, 
+Test Acc: 0.8267 ¡À 0.035, 
+Duration: 3.610799789428711
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=sgc, norm=f2)
+ Val Loss: 1.0587, 
+Test Acc: 0.8202 ¡À 0.013, 
+Duration: 1.8812386989593506
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=sgc, norm=f2)
+ Val Loss: 1.0734, 
+Test Acc: 0.8175 ¡À 0.013, 
+Duration: 1.9637672901153564
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=sgc, norm=f2)
+ Val Loss: 1.1009, 
+Test Acc: 0.8096 ¡À 0.013, 
+Duration: 2.1655490398406982
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=sgc, norm=f2)
+ Val Loss: 1.1337, 
+Test Acc: 0.7995 ¡À 0.013, 
+Duration: 2.666128158569336
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=sgc, norm=f2)
+ Val Loss: 1.1684, 
+Test Acc: 0.7899 ¡À 0.014, 
+Duration: 3.606450080871582
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc, norm=none)
+ Val Loss: 0.5282, 
+Test Acc: 0.8486 ¡À 0.012, 
+Duration: 1.4246842861175537
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc, norm=none)
+ Val Loss: 0.5319, 
+Test Acc: 0.8479 ¡À 0.012, 
+Duration: 1.4405059814453125
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc, norm=none)
+ Val Loss: 0.5442, 
+Test Acc: 0.8445 ¡À 0.013, 
+Duration: 1.6341743469238281
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc, norm=none)
+ Val Loss: 0.5631, 
+Test Acc: 0.8383 ¡À 0.013, 
+Duration: 2.121586561203003
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc, norm=none)
+ Val Loss: 0.5864, 
+Test Acc: 0.8308 ¡À 0.013, 
+Duration: 3.1462390422821045
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.4291, 
+Test Acc: 0.8779 ¡À 0.013, 
+Duration: 1.3547130823135376
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3549, 
+Test Acc: 0.9008 ¡À 0.012, 
+Duration: 1.3315635919570923
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3367, 
+Test Acc: 0.9077 ¡À 0.011, 
+Duration: 1.3631737232208252
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.3796, 
+Test Acc: 0.9030 ¡À 0.012, 
+Duration: 1.7216681241989136
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=ssgc_no_avg, norm=none)
+ Val Loss: 0.5044, 
+Test Acc: 0.8888 ¡À 0.014, 
+Duration: 2.6641969680786133
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=2, alpha=0.7, aggr=sgc, norm=none)
+ Val Loss: 0.5259, 
+Test Acc: 0.8497 ¡À 0.012, 
+Duration: 1.4465434551239014
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=4, alpha=0.7, aggr=sgc, norm=none)
+ Val Loss: 0.5412, 
+Test Acc: 0.8455 ¡À 0.013, 
+Duration: 1.4412400722503662
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=8, alpha=0.7, aggr=sgc, norm=none)
+ Val Loss: 0.5668, 
+Test Acc: 0.8370 ¡À 0.013, 
+Duration: 1.7121795415878296
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=16, alpha=0.7, aggr=sgc, norm=none)
+ Val Loss: 0.5965, 
+Test Acc: 0.8271 ¡À 0.013, 
+Duration: 2.1365573406219482
+==========
+ Params:  lr=0.01, wd=0.001, epochs=200
+ Model: CTGConv(745, 8, K=32, alpha=0.7, aggr=sgc, norm=none)
+ Val Loss: 0.6255, 
+Test Acc: 0.8168 ¡À 0.014, 
+Duration: 3.016911268234253
