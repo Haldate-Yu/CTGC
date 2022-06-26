@@ -15,7 +15,7 @@ from tqdm import tqdm, trange
 from transformers.optimization import get_cosine_schedule_with_warmup
 from functools import reduce
 
-from networks import Net_GCN, Net_GIN, Net_SGC, Net_SSGC, Net_CTGC
+from networks import Net_GCN, Net_GIN, Net_GIN_W, Net_SGC, Net_SSGC, Net_CTGC
 from data import get_dataset, num_graphs
 
 parser = argparse.ArgumentParser()
@@ -60,10 +60,11 @@ parser.add_argument('--aggr_type', type=str, default='ssgc',
 parser.add_argument('--norm_type', type=str, default='arctan',
                     help='arctan/f2/none')
 parser.add_argument('--pinv', type=bool, default=False)
+parser.add_argument('--topk', type=int, default='10',
+                    help='topk rate of the matrix(10/20/30)')
 
 parser.add_argument('--train_label_ratio', type=float, default=0.1,
                     help='label ratio')
-
 parser.add_argument('--data_split', type=str, default='standard',
                     help='standard/random')
 
@@ -87,7 +88,7 @@ args = parser.parse_args()
 #     t.add_rows([[k.replace("_", " ").capitalize(), args[k]] for k in keys])
 #     print(t.draw())
 
-dataset = get_dataset(args.dataset, normalize=args.normalize, pinv=args.pinv)
+dataset = get_dataset(args.dataset, normalize=args.normalize, pinv=args.pinv, topk=args.topk)
 args.num_features, args.num_classes, args.avg_num_nodes = dataset.num_features, dataset.num_classes, np.ceil(
     np.mean([data.num_nodes for data in dataset]))
 print('# %s: [FEATURES]-%d [NUM_CLASSES]-%d [AVG_NODES]-%d' % (
@@ -101,7 +102,7 @@ if not (os.path.isdir('./results/{}'.format(log_folder_name))):
     print("Make Directory {} in  Results Folders".format(log_folder_name))
 
 
-def load_dataloader(fold_number, val_fold_number):
+def load_dataloader(fold_number, val_fold_number, generator):
     train_idxes = torch.as_tensor(np.loadtxt('../datasets/%s/10fold_idx/train_idx-%d.txt' % (args.dataset, fold_number),
                                              dtype=np.int32), dtype=torch.long)
     val_idxes = torch.as_tensor(
@@ -120,21 +121,27 @@ def load_dataloader(fold_number, val_fold_number):
     train_loader = DataLoader(dataset=train_set,
                               batch_size=args.batch_size,
                               shuffle=True,
+                              worker_init_fn=seed_worker,
+                              generator=generator
                               )
     val_loader = DataLoader(dataset=val_set,
                             batch_size=args.batch_size,
                             shuffle=False,
+                            worker_init_fn=seed_worker,
+                            generator=generator
                             )
     test_loader = DataLoader(dataset=test_set,
                              batch_size=args.batch_size,
                              shuffle=False,
+                             worker_init_fn=seed_worker,
+                             generator=generator
                              )
     # pin_memory = True
     # num_workers = 8,
     return train_loader, val_loader, test_loader
 
 
-def load_dataloader_random(fold_number, val_fold_number):
+def load_dataloader_random(fold_number, val_fold_number, generator):
     num_training = int(len(dataset) * args.train_label_ratio)
     num_val = int(len(dataset) * 0.1)
     num_test = int(len(dataset) * 0.1)
@@ -144,16 +151,20 @@ def load_dataloader_random(fold_number, val_fold_number):
     train_loader = DataLoader(dataset=train_set,
                               batch_size=args.batch_size,
                               shuffle=True,
+                              worker_init_fn=seed_worker,
+                              generator=generator
                               )
     val_loader = DataLoader(dataset=val_set,
                             batch_size=args.batch_size,
                             shuffle=False,
-
+                            worker_init_fn=seed_worker,
+                            generator=generator
                             )
     test_loader = DataLoader(dataset=test_set,
                              batch_size=args.batch_size,
                              shuffle=False,
-
+                             worker_init_fn=seed_worker,
+                             generator=generator
                              )
     # pin_memory = True
     # num_workers = 8,
@@ -197,7 +208,8 @@ def train(model, optimizer, train_loader, val_loader, scheduler, ):
 
         # epoch_fold_iter.refresh()
         if val_loss < min_loss:
-            torch.save(model.state_dict(), './results/{}/latest_{}.pth'.format(args.dataset, args.dataset))
+            torch.save(model.state_dict(),
+                       './results/{}/latest_{}_{}.pth'.format(args.dataset, args.dataset, args.model))
             # print("Model saved at epoch{}".format(epoch))
             min_loss = val_loss
             patience = 0
@@ -205,6 +217,12 @@ def train(model, optimizer, train_loader, val_loader, scheduler, ):
             patience += 1
         if patience > args.patience:
             break
+
+
+def seed_worker(worker_id):
+    worker_seed = torch.initial_seed() % 2 ** 32
+    random.seed(worker_seed)
+    np.random.seed(worker_seed)
 
 
 def model_train_and_val(dataset, seed):
@@ -217,7 +235,10 @@ def model_train_and_val(dataset, seed):
         torch.cuda.manual_seed_all(seed)
         args.device = 'cuda:{}'.format(args.cuda)
     torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = True
+    torch.backends.cudnn.benchmark = False
+
+    generator = torch.Generator()
+    generator.manual_seed(seed)
 
     test_acc_lst = []
 
@@ -234,16 +255,18 @@ def model_train_and_val(dataset, seed):
 
         if args.data_split == "standard":
             val_fold_number = val_fold_iter[fold_number - 2]
-            train_loader, val_loader, test_loader = load_dataloader(fold_number, val_fold_number)
+            train_loader, val_loader, test_loader = load_dataloader(fold_number, val_fold_number, generator)
 
         elif args.data_split == "random":
             val_fold_number = val_fold_iter[fold_number - 1]
-            train_loader, val_loader, test_loader = load_dataloader_random(fold_number, val_fold_number)
+            train_loader, val_loader, test_loader = load_dataloader_random(fold_number, val_fold_number, generator)
 
         if args.model == "gcn":
             model = Net_GCN(args).to(args.device)
         elif args.model == "gin":
             model = Net_GIN(args).to(args.device)
+        elif args.model == 'gin_w':
+            model = Net_GIN_W(args).to(args.device)
         elif args.model == 'sgc':
             model = Net_SGC(args).to(args.device)
         elif args.model == 'ssgc':
@@ -265,6 +288,8 @@ def model_train_and_val(dataset, seed):
             model = Net_GCN(args).to(args.device)
         elif args.model == "gin":
             model = Net_GIN(args).to(args.device)
+        elif args.model == 'gin_w':
+            model = Net_GIN_W(args).to(args.device)
         elif args.model == 'sgc':
             model = Net_SGC(args).to(args.device)
         elif args.model == 'ssgc':
@@ -272,12 +297,11 @@ def model_train_and_val(dataset, seed):
         elif args.model == 'ctgc':
             model = Net_CTGC(args).to(args.device)
 
-        model.load_state_dict(torch.load('./results/{}/latest_{}.pth'.format(args.dataset, args.dataset)))
+        model.load_state_dict(
+            torch.load('./results/{}/latest_{}_{}.pth'.format(args.dataset, args.dataset, args.model)))
         test_acc, test_loss = test(model, test_loader)
 
         test_acc_lst.append(test_acc)
-        # print("Test accuarcy:{:.4f} ± {:.4f}".format(test_acc, test_loss))
-        # print("_"*30)
 
         train_fold_iter.refresh()
 
@@ -288,14 +312,15 @@ def ran_exp_grid(dataset, seed_lst):
     print("Start Training!")
 
     test_acc_total_lst = []
-
     for index, seed in enumerate(seed_lst):
 
         print(" Training cycle {}, Seed:{}".format(index, seed))
         test_acc_lst = model_train_and_val(dataset, seed)
-        if args.model in ['gcn', 'gin']:
+        if args.model in ['gcn', 'gin', 'gin_w']:
             summary_1 = 'Model={}, Data Split={}, Dataset={}, Seed={},'.format(
                 args.model, args.data_split, args.dataset, seed)
+            if args.pinv:
+                summary_1 += ' Using Ectd TOPK={}'.format(args.topk)
         elif args.model in ['sgc', 'ssgc']:
             summary_1 = "Model={}, Layers={}, Data Split={}, Dataset={}, Seed={}".format(
                 args.model, args.K, args.data_split, args.dataset, seed)
@@ -305,7 +330,7 @@ def ran_exp_grid(dataset, seed_lst):
 
         summary_2 = 'test_acc_main={:.2f} ± {:.2f}'.format(
             np.mean(test_acc_lst) * 100, np.std(test_acc_lst) * 100)
-        print('{} : \n{} \n{}: \n{}'.format('Model details:', summary_1, "Final result:", summary_2))
+        print('{} : \n{} \n{}: \n{}'.format('Model details', summary_1, "Final result", summary_2))
 
         final_result_file = "./results/{}/{}-results.txt".format(args.dataset, args.model)
         with open(final_result_file, 'a+') as f:
@@ -325,9 +350,11 @@ def ran_exp_grid(dataset, seed_lst):
 
     summary_1_total = 'Model={},Data Split={}, Dataset={}, Num Layers={}'.format(
         args.model, args.data_split, args.dataset, args.num_layers)
-    if args.model in ['gcn', 'gin']:
+    if args.model in ['gcn', 'gin', 'gin_w']:
         summary_1_total = 'Model={}, Data Split={}, Dataset={}, Num Layers={},'.format(
             args.model, args.data_split, args.dataset, args.num_layers)
+        if args.pinv:
+            summary_1_total += 'Using ECTD TopK={}'.format(args.topk)
     elif args.model in ['sgc', 'ssgc']:
         summary_1_total = "Model={}, Num Layers={}, Data Split={}, Dataset={}".format(
             args.model, args.K, args.data_split, args.dataset)
@@ -350,6 +377,6 @@ def ran_exp_grid(dataset, seed_lst):
 if __name__ == '__main__':
     seed_lst = [i + 42 for i in range(args.seed_number)]
     # tab_printer(args)
-    if args.pinv:
+    if args.pinv is True:
         print('using pinv!')
     ran_exp_grid(dataset, seed_lst)
