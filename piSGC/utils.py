@@ -103,7 +103,7 @@ def load_citation(dataset_str="cora", args=None, normalization="AugNormAdj", cud
     idx_val = range(len(y), len(y) + 500)
 
 #     save_mat(preprocess(adj), dataset_str, 'ori_' + dataset_str)
-#     adj, features = preprocess_citation(adj, features, args, normalization, ectd_data)
+    adj, features = preprocess_citation(adj, features, args, normalization, ectd_data)
 #     save_mat(adj, dataset_str, 'pinv_' + dataset_str)
 
     # porting to pytorch
