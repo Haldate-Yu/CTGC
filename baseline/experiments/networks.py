@@ -27,11 +27,14 @@ class Net_GCN(torch.nn.Module):
     def forward(self, data):
         x, edge_index, batch = data.x, data.edge_index, data.batch
 
-        x = F.relu(self.conv1(x, edge_index))
-        x = F.relu(self.conv2(x, edge_index))
-        x = F.relu(self.conv3(x, edge_index))
+        x = F.relu((self.conv1(x, edge_index)))
+        x = F.relu((self.conv2(x, edge_index)))
+        x = F.relu((self.conv3(x, edge_index)))
 
-        x = global_mean_pool(x, batch)
+        # x = global_mean_pool(x, batch)
+        # x = global_max_pool(x, batch)
+        x = global_add_pool(x, batch)
+
         x = F.relu(self.lin1(x))
         x = F.dropout(x, p=self.dropout_ratio, training=self.training)
         x = self.lin2(x)
@@ -82,6 +85,48 @@ class Net_GIN(torch.nn.Module):
         return x
 
 
+class Net_GIN_W(torch.nn.Module):
+    def __init__(self, args):
+        super(Net_GIN_W, self).__init__()
+        self.args = args
+        self.num_features = args.num_features
+        self.nhid = args.nhid
+        self.num_classes = args.num_classes
+        self.dropout_ratio = args.dropout_ratio
+        self.num_layers = args.num_layers
+
+        self.conv1 = GINConvWeight(
+            Sequential(Linear(self.num_features, self.nhid), BatchNorm1d(self.nhid), ReLU(),
+                       Linear(self.nhid, self.nhid), ReLU()))
+
+        self.conv2 = GINConvWeight(
+            Sequential(Linear(self.nhid, self.nhid), BatchNorm1d(self.nhid), ReLU(),
+                       Linear(self.nhid, self.nhid), ReLU()))
+
+        self.conv3 = GINConvWeight(
+            Sequential(Linear(self.nhid, self.nhid), BatchNorm1d(self.nhid), ReLU(),
+                       Linear(self.nhid, self.nhid), ReLU()))
+
+        self.lin1 = torch.nn.Linear(self.nhid, self.nhid)
+        self.lin2 = torch.nn.Linear(self.nhid, self.num_classes)
+
+    def forward(self, data):
+        x, edge_index, edge_weight, batch = data.x, data.edge_index, data.edge_weight, data.batch
+
+        x = self.conv1(x, edge_index, edge_weight)
+        x = self.conv2(x, edge_index, edge_weight)
+        x = self.conv3(x, edge_index, edge_weight)
+
+        x = global_add_pool(x, batch)
+
+        x = F.relu(self.lin1(x))
+        x = F.dropout(x, p=self.dropout_ratio, training=self.training)
+        x = self.lin2(x)
+        x = F.log_softmax(x, dim=-1)
+
+        return x
+
+
 class Net_SGC(torch.nn.Module):
     def __init__(self, args):
         super(Net_SGC, self).__init__()
@@ -94,17 +139,19 @@ class Net_SGC(torch.nn.Module):
         self.K = args.K
 
         self.conv1 = SGConv(self.num_features, self.nhid, K=self.K, cached=False)
-       
+
         self.lin1 = torch.nn.Linear(self.nhid, self.nhid)
         self.lin2 = torch.nn.Linear(self.nhid, self.num_classes)
 
     def forward(self, data):
         x, edge_index, batch = data.x, data.edge_index, data.batch
 
-        x = self.conv1(x, edge_index)
+        x = (self.conv1(x, edge_index))
 
-        x = global_mean_pool(x, batch)
-        
+        # x = global_mean_pool(x, batch)
+        # x = global_max_pool(x, batch)
+        x = global_add_pool(x, batch)
+
         x = F.relu(self.lin1(x))
         x = F.dropout(x, p=self.dropout_ratio, training=self.training)
         x = self.lin2(x)
@@ -132,10 +179,12 @@ class Net_SSGC(torch.nn.Module):
     def forward(self, data):
         x, edge_index, batch = data.x, data.edge_index, data.batch
 
-        x = self.conv1(x, edge_index)
+        x = (self.conv1(x, edge_index))
 
-        x = global_mean_pool(x, batch)
-        
+        # x = global_mean_pool(x, batch)
+        # x = global_max_pool(x, batch)
+        x = global_add_pool(x, batch)
+
         x = F.relu(self.lin1(x))
         x = F.dropout(x, p=self.dropout_ratio, training=self.training)
         x = self.lin2(x)
@@ -165,15 +214,15 @@ class Net_CTGC(torch.nn.Module):
         self.lin1 = torch.nn.Linear(self.nhid, self.nhid)
         self.lin2 = torch.nn.Linear(self.nhid, self.num_classes)
 
-        # self.edge_emb = torch.nn.Linear(4, 1)
-
     def forward(self, data):
-        x, edge_index, edge_attr, batch = data.x, data.edge_index, data.edge_attr, data.batch
+        x, edge_index, edge_weight, batch = data.x, data.edge_index, data.edge_weight, data.batch
 
-        x = self.conv1(x, edge_index, edge_attr)
+        x = (self.conv1(x, edge_index, edge_weight))
 
-        x = global_mean_pool(x, batch)
-        
+        # x = global_mean_pool(x, batch)
+        # x = global_max_pool(x, batch)
+        x = global_add_pool(x, batch)
+
         x = F.relu(self.lin1(x))
         x = F.dropout(x, p=self.dropout_ratio, training=self.training)
         x = self.lin2(x)
