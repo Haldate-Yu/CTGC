@@ -21,24 +21,24 @@ class NormalizedDegree(object):
         return data
 
 
-def get_dataset(name, sparse=True, cleaned=False, normalize=False, pinv=False):
+def get_dataset(name, sparse=True, cleaned=False, normalize=False, pinv=False, topk=10):
     dataset = TUDataset(os.path.join('../data', name), name, use_node_attr=True, cleaned=cleaned)
 
     # set edge attr
-    edge_attr = []
+    edge_weight = []
     edge_index = []
 
     for i, data in enumerate(dataset):
-        if pinv:
-            edge_index_i, edge_attr_i = adj_pinv(data, name, i)
-            edge_attr.append(edge_attr_i)
+        if pinv is True:
+            edge_index_i, edge_weight_i = adj_pinv(data, name, i, topk=topk)
+            edge_weight.append(edge_weight_i)
             edge_index.append(edge_index_i)
         else:
-            edge_attr.append(torch.ones((data.edge_index.size(1),), dtype=data.edge_index.dtype,
-                                        device=data.edge_index.device))
+            edge_weight.append(torch.ones((data.edge_index.size(1),), dtype=torch.float32,
+                                          device=data.edge_index.device))
             edge_index.append(data.edge_index)
 
-    dataset = dataset.set_edge_attr(edge_attr)
+    dataset = dataset.set_edge_weight(edge_weight)
     dataset = dataset.set_edge_index(edge_index)
 
     if dataset.data.x is None:
