@@ -145,17 +145,17 @@ class TUDataset(InMemoryDataset):
 
         return edge_attr_lst
 
-    def set_edge_attr(self, edge_attr_list):
+    def set_edge_weight(self, edge_weight_list):
         data_list = [self.get(idx) for idx in range(len(self))]
 
-        if len(edge_attr_list) == 0:
+        if len(edge_weight_list) == 0:
             for data in data_list:
-                data.edge_attr = torch.ones((data.edge_index.size(1),), dtype=data.edge_index.dtype,
-                                            device=data.edge_index.device)
+                data.edge_weight = torch.ones((data.edge_index.size(1),), dtype=data.edge_index.dtype,
+                                              device=data.edge_index.device)
         else:
-            assert len(edge_attr_list) == len(data_list)
+            assert len(edge_weight_list) == len(data_list)
             for i, data in enumerate(data_list):
-                data.edge_attr = edge_attr_list[i]
+                data.edge_weight = edge_weight_list[i]
         dataset = copy.copy(self)
         dataset._indices = None
         dataset._data_list = data_list
