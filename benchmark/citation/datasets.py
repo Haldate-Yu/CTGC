@@ -18,9 +18,9 @@ def get_planetoid_dataset(name, normalize_features=False, transform=None):
     return dataset
 
 
-def get_amazon_dataset(name, normalize_features=False, transform=None):
+def get_amazon_dataset(name, normalize_features=False, transform=T.RandomNodeSplit(split='test_rest')):
     path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data', name)
-    dataset = Amazon(path, name, T.RandomNodeSplit(split='test_rest'))
+    dataset = Amazon(path, name)
 
     if transform is not None and normalize_features:
         dataset.transform = T.Compose([T.NormalizeFeatures(), transform])
@@ -32,9 +32,9 @@ def get_amazon_dataset(name, normalize_features=False, transform=None):
     return dataset
 
 
-def get_coauthor_dataset(name, normalize_features=False, transform=None):
+def get_coauthor_dataset(name, normalize_features=False, transform=T.RandomNodeSplit(split='test_rest')):
     path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data', name)
-    dataset = Coauthor(path, name, T.RandomNodeSplit(split='test_rest'))
+    dataset = Coauthor(path, name)
 
     if transform is not None and normalize_features:
         dataset.transform = T.Compose([T.NormalizeFeatures(), transform])
