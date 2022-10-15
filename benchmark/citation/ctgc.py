@@ -6,7 +6,7 @@ from datasets import get_planetoid_dataset, get_amazon_dataset, get_coauthor_dat
 from train_eval import random_planetoid_splits, run
 
 from layers import CTGConv
-from utils import logger
+from utils import logger, adj_pinv
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, required=True)
@@ -31,13 +31,18 @@ class Net(torch.nn.Module):
         self.conv1 = CTGConv(dataset.num_features, dataset.num_classes,
                              K=args.K, alpha=args.alpha, aggr_type=args.aggr_type, norm_type=args.norm_type,
                              cached=True)
+        self.dataname = args.dataset
 
     def reset_parameters(self):
         self.conv1.reset_parameters()
 
+    def get_ectd(self, data):
+        return adj_pinv(data, self.dataname)
+        
     def forward(self, data):
         x, edge_index = data.x, data.edge_index
-        x = self.conv1(x, edge_index)
+        edge_index, edge_weight = self.get_ectd(data)
+        x = self.conv1(x, edge_index, edge_weight)
         return F.log_softmax(x, dim=1)
 
 
