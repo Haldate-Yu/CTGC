@@ -48,10 +48,6 @@ def run(dataset, model, runs, epochs, lr, weight_decay, early_stopping,
         set_seeds(_ + 42)
         data = dataset[0]
 
-        if pinv:
-            # print('using pinv!')
-            data.edge_index, data.edge_attr = adj_pinv(data, dataname)
-
         if permute_masks is not None:
             data = permute_masks(data, dataset.num_classes)
         data = data.to(device)
