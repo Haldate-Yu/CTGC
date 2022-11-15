@@ -82,7 +82,6 @@ def rw_normalized_adjacency(adj):
     adj_2nd = adj
     adj_2nd = np.where(adj_2nd <= 0, adj_2nd, 1.)
     # adj[i, j] = 1. record indexes
-    print(np.count_nonzero(adj_2nd))
     i, j = np.nonzero(adj_2nd)
     values = zip(i, j)
 
@@ -90,19 +89,18 @@ def rw_normalized_adjacency(adj):
     vg = deg.sum().sum()
 
     # standard laplacian
-    lap = deg - adj_2nd
-    print("laplacian:\n {}".format(lap))
+    # lap = deg - adj_2nd
+    
 
     # symmetric laplacian
     d_inv_sqrt = np.power(deg, -0.5)
     d_inv_sqrt[np.isinf(d_inv_sqrt)] = 0.
 
     lap = np.identity(adj.shape[0]) - d_inv_sqrt.dot(adj_2nd).dot(d_inv_sqrt)
-    print("symmetric laplacian:\n {}".format(lap))
 
     pinv = pinvh(lap)
-    # ectd = calculate_ectd(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg)
-    ectd = calculate_ectd_hie(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg)
+    ectd = calculate_ectd(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg)
+    # ectd = calculate_ectd_hie(nnodes=adj.shape[0], values=values, pinv=pinv, vg=vg)
 
     adj = ectd
     adj = sp.coo_matrix(adj)
